@@ -1,0 +1,31 @@
+{
+  "name": "bpteam/php-shell",
+  "description": "tiny and slow ;) php classes for work with shell",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Evgeny Pynykh",
+      "email": "bpteam22@gmail.com",
+      "homepage": "http://bpteam.net",
+      "role": "Developer"
+    }
+  ],
+  "require-dev": {
+    "codeclimate/php-test-reporter": "dev-master"
+  },
+  "require": {
+    "php": ">=5.5",
+    "pwfisher/command-line-php": "master"
+  },
+  "repositories":[
+    {
+      "type": "vcs",
+      "url": "https://github.com/bpteam/CommandLine.php"
+    }
+  ],
+  "autoload" : {
+    "psr-4": {
+      "bpteam\\PhpShell\\": ""
+    }
+  }
+}
